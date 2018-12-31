@@ -16,7 +16,7 @@ const hh = document.getElementById("canvas-container").clientHeight
 const ttest = `${hh} ${wh} ${(hh - wh) / 2}`
 alert("test2")
 //alert(ttest)
-document.getElementById("canvas-container").style.bottom = `-${(hh - wh) / 2}px`
+document.getElementById("canvas-container").style.top = `-${(hh - wh) / 2}px`
 
 // Worldの生成
 const createEngine = parentNode => {
@@ -26,6 +26,7 @@ const createEngine = parentNode => {
 	const MouseConstraint = Matter.MouseConstraint;
 
 	let engine = Engine.create(parentNode, {
+
 		render: {
 			options: {
 				wireframes: false,
