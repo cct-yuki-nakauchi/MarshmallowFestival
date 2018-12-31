@@ -1,0 +1,16 @@
+body{
+	background-image: url("../img/back.jpeg");
+	/* background-size: 100% 100%; */
+	/* background-color: #999; */
+	overflow: hidden;
+}
+
+canvas {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#canvas-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
