@@ -14,7 +14,7 @@ const wh = window.innerHeight
 const ww = window.parent.screen.width
 const hh = document.getElementById("canvas-container").clientHeight
 const ttest = `${hh} ${wh} ${(hh - wh) / 2}`
-alert(ttest)
+//alert(ttest)
 //document.getElementById("canvas-container").style.bottom = `${(hh - wh) / 2}px`
 
 // Worldの生成
