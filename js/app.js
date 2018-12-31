@@ -10,8 +10,8 @@ const alphaToWhite = data8U => {
 	}
 }
 
-const wh = window.parent.screen.height
-const ww = window.parent.screen.width
+const wh = window.innerWidth
+const ww = window.innerHeight
 
 // Worldの生成
 const createEngine = parentNode => {
