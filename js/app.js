@@ -12,7 +12,7 @@ const alphaToWhite = data8U => {
 
 const wh = window.innerHeight
 const ww = window.parent.screen.width
-
+alert((window.parent.screen.height - wh) / 2)
 document.getElementById("canvas-container").style.top = `${(window.parent.screen.height - wh) / 2}px`
 
 
