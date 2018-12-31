@@ -7,6 +7,9 @@ body{
 
 canvas {
 	background-color: rgba(0, 0, 0, 0) !important;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 
 #canvas-container {
