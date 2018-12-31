@@ -13,6 +13,9 @@ const alphaToWhite = data8U => {
 const wh = window.innerHeight
 const ww = window.parent.screen.width
 
+document.getElementById("canvas-container").style.top = `${(window.parent.screen.height - wh) / 2}px`
+
+
 // Worldの生成
 const createEngine = parentNode => {
 	const Engine = Matter.Engine;
